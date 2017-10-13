@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name='ase-game',
-    version='0.1',
+    name='ase_game',
+    version='0.2',
     description='',
     licence='MIT',
     packages=[

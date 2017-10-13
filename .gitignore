@@ -1,2 +1,7 @@
 .cache
 .idea
+
+ase_game.egg-info
+
+build
+dist
