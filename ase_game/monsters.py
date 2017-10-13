@@ -7,7 +7,7 @@ class Monster:
         self.hit_points = hit_points
 
     def battle_cry(self):
-        return self.sound.upper()
+        return self.sound.upper() + '!'
 
     def action(self):
         self.action_count += 1

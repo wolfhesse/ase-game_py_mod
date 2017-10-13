@@ -6,8 +6,8 @@ from ase_game import monsters
 
 
 @pytest.mark.parametrize('monster, expected', [
-    (monsters.Monster(), monsters.Monster(hit_points=22)),
-    (monsters.Monster(), monsters.Monster(hit_points=22)),
+    (monsters.Monster(), 20),
+    (monsters.Monster(hit_points=22), 22),
 ])
 def test_default(monster, expected):  # pragma for coverage?
     # inputs, why?, expected results
@@ -30,7 +30,7 @@ def test_hitpoints(monster):
 
 
 def test_battle_cry(monster):
-    assert monster.battle_cry() == 'ROARING'
+    assert monster.battle_cry() == 'ROARING!'
 
 
 def test_battle_cry_alt(monster):

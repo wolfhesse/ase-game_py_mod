@@ -8,14 +8,22 @@ with open('VERSION') as f:
 
 setup(
     name='ase-game',
-    description=long_description,
+    description='playing w/ setup.py',
+    long_description=long_description,
     license='MIT',
+    author='@wolfhesse',
+    author_email='wolfgang.schuessel@gmail.com',
+    url='asecms.base.wolfspool.at/py-ase-game-pg',
     version=version,
     packages=[
         'ase_game',
     ],
     scripts=[
         'scripts/eins.py',
+    ],
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'License :: OSI Approved :: MIT license',
     ],
     zip_safe=False,
     install_requires=['pytest'],
