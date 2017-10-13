@@ -2,7 +2,7 @@ import unittest
 
 import pytest as pytest
 
-from game import monsters
+from ase_game import monsters
 
 
 @pytest.mark.parametrize('monster, expected', [
@@ -18,7 +18,7 @@ def test_default(monster, expected):  # pragma for coverage?
     :return:
     """
     assert monster.sound == 'roaring'
-    assert monster.hit_points == 20
+    assert monster.hit_points == expected
 
 
 def test_color(monster):

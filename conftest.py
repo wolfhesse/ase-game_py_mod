@@ -1,6 +1,6 @@
 import pytest
 
-from game import monsters
+from ase_game import monsters
 
 
 @pytest.fixture()
