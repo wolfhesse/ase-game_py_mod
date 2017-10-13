@@ -1,0 +1,2 @@
+lookup twine https://pypi.python.org/pypi/twine
+for upload to pyPI https://pypi.python.org/pypi
