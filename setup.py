@@ -7,13 +7,13 @@ with open('VERSION') as f:
     version = f.readline().strip()
 
 setup(
-    name='ase-game',
+    name='ase-game_py_mod',
     description='playing w/ setup.py',
     long_description=long_description,
     license='MIT',
     author='@wolfhesse',
     author_email='wolfgang.schuessel@gmail.com',
-    url='asecms.base.wolfspool.at/py-ase-game-pg',
+    url='https://github.com/wolfhesse/ase-game_py_mod',
     version=version,
     packages=[
         'ase_game',
