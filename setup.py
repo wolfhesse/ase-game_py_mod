@@ -7,7 +7,7 @@ with open('VERSION') as f:
     version = f.readline().strip()
 
 setup(
-    name='ase-game_py_mod',
+    name='ase_game_py_mod',
     description='playing w/ setup.py',
     long_description=long_description,
     license='MIT',
@@ -16,7 +16,7 @@ setup(
     url='https://github.com/wolfhesse/ase-game_py_mod',
     version=version,
     packages=[
-        'ase_game',
+        'ase_game_py_mod',
     ],
     scripts=[
         'scripts/eins.py',

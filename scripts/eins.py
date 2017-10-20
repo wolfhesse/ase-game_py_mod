@@ -1,4 +1,4 @@
-from ase_game import monsters
+from ase_game_py_mod import monsters
 
 monster = monsters.Monster()
 
