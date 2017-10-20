@@ -34,8 +34,8 @@ def test_battle_cry(monster):
 
 
 def test_battle_cry_alt(monster):
-    assert monster.battle_cry() == monster.sound.upper()
-    assert monster.battle_cry() + "a" == monster.sound.upper() + "a"
+    assert monster.battle_cry() == monster.sound.upper() + "!"
+    assert monster.battle_cry() + "a" == monster.sound.upper() + "!a"
 
 
 class TestMonsterUnit(unittest.TestCase):
