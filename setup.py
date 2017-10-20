@@ -15,6 +15,7 @@ setup(
     author_email='wolfgang.schuessel@gmail.com',
     url='https://github.com/wolfhesse/ase-game_py_mod',
     version=version,
+    package_dir={'': 'src'},
     packages=[
         'ase_game_py_mod',
     ],
